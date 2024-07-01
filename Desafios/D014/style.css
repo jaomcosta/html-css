@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+caption {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.destaque {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+tbody>tr>th.destaque {
+    text-align: left;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 15px 20px;
+    text-align: center;
+}
